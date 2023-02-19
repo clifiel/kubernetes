@@ -1,2 +1,4 @@
 *.id
 .ssh/
+.terraform/
+.terraform.*
