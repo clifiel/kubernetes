@@ -2,3 +2,4 @@
 .ssh/
 .terraform/
 .terraform.*
+terraform.tfstate*
