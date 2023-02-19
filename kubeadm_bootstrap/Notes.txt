@@ -108,3 +108,5 @@ kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.25.0
 ssh -i kubeadm_bootstrap/.ssh/node1.id vagrant@192.168.100.47
 ssh -i kubeadm_bootstrap/.ssh/node2.id vagrant@192.168.100.48
 ssh -i kubeadm_bootstrap/.ssh/node3.id vagrant@192.168.100.49
+
+alias vboxmanage='/mnt/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe'
