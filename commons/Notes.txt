@@ -93,8 +93,8 @@ Alternatively, if you are the root user, you can run:
   export KUBECONFIG=/etc/kubernetes/admin.conf
   
   
-kubeadm join 192.168.100.47:6443 --token 63qhbn.x8qtvn4weq9q8yj4 \
-        --discovery-token-ca-cert-hash sha256:2e0605c594c454e95c6cf584674067bb1c2d5c82db5044394f32b1e348372389  
+kubeadm join 192.168.100.47:6443 --token xxxxxx.xxxxxxxxxxxxxxxx \
+        --discovery-token-ca-cert-hash sha256:xxxxx  
 
 
 kubeadm config images pull
